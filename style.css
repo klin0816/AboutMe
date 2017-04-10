@@ -1,8 +1,11 @@
+body{
+	background-color: #F5FFFA;
+}
 .bannerContainer{
 	position: fixed;
 	height: 150px;
 	width: 100%;
-	background-color: #FFEBCD;
+	background-color: #F5FFFA;
 	top:0px;	
 	left:0px;
 	z-index:1;
@@ -11,7 +14,76 @@
 .TopPNG{
 	position: absolute;
 	top: 20px;
-	left: 47%;
+	left: 48%;
+}
+.BannerFont{
+	font-family: Century Gothic, sans-serif;
+	position: absolute;
+	top: 35%;
+	font-size: 25px;
+	white-space: nowrap;
+	width:100%;
+}
+.OurWork{
+	position: absolute;
+	left: 11%;
+	color:#d2143a;
+}
+.OurWork:hover{
+	color:#d2143a;
+}
+.OurWorkU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 1;
+}
+.AboutUs{
+	position: absolute;
+	left: 28%;
+}
+.AboutUs:hover{
+	color:#d2143a;
+}
+.AboutUsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
+}
+.News{
+	position: absolute;
+	left: 64%; 
+}
+.News:hover{
+	color:#d2143a;
+}
+.NewsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
+}
+.ContactUs{
+	position: absolute;
+	left: 79%;
+}
+.ContactUs:hover{
+	color:#d2143a;
+}
+.ContactUsU{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 5px;
+	background-color: #d2143a;
+	opacity: 0;
 }
 .bodyContainer{
 	height: 2000px;
@@ -21,4 +93,181 @@
 	position:absolute;
 	top:150px;
 	left:0px;
+}
+.OurWorkContainer{
+	width:100%;
+}
+.Icon1{
+	position:absolute;
+	top:700px;
+	left: 12%;
+}
+.Icon2{
+	position:absolute;
+	top:700px;
+	left: 42.5%;
+}
+.Icon3{	
+	position:absolute;
+	top:700px;
+	left: 71.5%;
+}
+.FeatureFont{
+	font-family: Helvetica;
+	position: absolute;
+	top: 920px;
+    font-size: 20px;
+	white-space: nowrap;
+	width: 100%;
+}
+.Feature1{
+	position: absolute;
+	left: 12.5%	
+}
+.Feature2{
+	position: absolute;
+	left: 45.5%;
+}
+.Feature3{
+	position: absolute;
+	left: 74%;
+}
+.hr{
+	position: absolute;
+	top: 1030px;
+	left: 10%;
+	width:80%;
+	height:5px;
+	background-color: #A9A9A9;
+}
+.AboutUsContainer{
+	width:100%;
+	font-family: Didot;
+	font-style: italic;
+	line-height: 28px;
+}
+.TheTeam{
+	font-family: Palatino;
+	position: absolute;
+	top: 1100px;
+	font-size: 25px;
+	left: 46%;
+}
+.OccupationColor{
+	color: #d2143a;
+}
+.DesColor{
+	color: #808080;
+}
+.Member1{
+	position: absolute;
+	top: 1150px;
+	left:13%;
+}
+.photo1{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/JianWei.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member2{
+	position: absolute;
+	top: 1150px;
+	left:53%;
+}
+.photo2{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/YouRen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member3{
+	position: absolute;
+	top: 1550px;
+	left:13%;
+}
+.photo3{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/HanWei.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member4{
+	position: absolute;
+	top: 1550px;
+	left:53%;
+}
+.photo4{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/WeiJia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Member5{
+	position: absolute;
+	top: 1950px;
+	left:13%;
+}
+.photo5{
+	width: 450px;
+	height: 253px;
+	background-color: #A9A9A9;
+	margin: 0px 0px 20px 0px;
+	background-image: url("IMG/Members/KLin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hr2{
+	position: absolute;
+	top: 2400px;
+	left: 10%;
+	width:80%;
+	height:5px;
+	background-color: #A9A9A9;
+}
+.NewsContainer{
+	width:100%;
+}
+.NewsText{	
+	font-family: Palatino;
+	position: absolute;
+	top: 2450px;
+	font-size: 25px;
+	left: 48%;
+}
+.NewsContent{
+	position: absolute;
+	top: 2550px;
+	font-size: 20px;
+	left: 46.5%;
+}
+.ContactUsContainer{
+	font-family: Copperplate;
+	position: absolute;
+	top: 2900px;
+	background-color: #A9A9A9;
+	width: 100%;
+	height: 130px;
+}
+.CUText{
+	position: relative;
+	top: 10px;
+	line-height: 30px;
 }
