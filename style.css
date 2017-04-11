@@ -72,7 +72,7 @@ body{
 }
 .ContactUs{
 	position: absolute;
-	left: 79%;
+	left: 77%;
 }
 .ContactUs:hover{
 	color:#d2143a;
@@ -105,32 +105,32 @@ body{
 .Icon2{
 	position:absolute;
 	top:700px;
-	left: 42.5%;
+	left: 41%;
 }
 .Icon3{	
 	position:absolute;
 	top:700px;
-	left: 71.5%;
+	left: 68%;
 }
 .FeatureFont{
 	font-family: Helvetica;
 	position: absolute;
-	top: 920px;
+	top: 900px;
     font-size: 20px;
 	white-space: nowrap;
 	width: 100%;
 }
 .Feature1{
 	position: absolute;
-	left: 12.5%	
+	left: 14.5%	
 }
 .Feature2{
 	position: absolute;
-	left: 45.5%;
+	left: 46%;
 }
 .Feature3{
 	position: absolute;
-	left: 74%;
+	left: 72.5%;
 }
 .hr{
 	position: absolute;
